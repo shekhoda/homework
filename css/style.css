@@ -1,0 +1,90 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+/* .text{
+	color: red;
+}
+.paragraph{
+	color: green;
+}
+#prime {
+	color: blue;
+}
+p{
+	color: yellowgreen;
+}
+h2{
+	color: blueviolet;
+}
+span{
+	color: aqua;
+}
+
+span.yellow-text{
+	color: yellow;
+} */
+
+/* span.bigred {
+	color: green;
+}
+.bigred{
+	color: red;
+} */
+/* 
+span {
+	color: rgb(17, 0, 255);
+}
+
+.bigred span{
+	color: red;
+} */
+
+.block{
+	color: green;
+}
+
+.block > p{
+	color: blue;
+}
+
+.list-2 a{
+	color: red;
+}
+
+li {
+	color: aqua;
+}
+
+.list-1 li,
+p{
+	color: blueviolet;
+}
